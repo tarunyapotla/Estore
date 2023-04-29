@@ -1,0 +1,40 @@
+.banner {
+    width: 100%;
+}
+
+.leftBtn {
+    position: absolute !important;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    color: #252525 !important;
+    font-size: 1.2rem !important;
+    border: 1px solid #252525;
+    padding: .5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.rightBtn {
+    position: absolute !important;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    color: #252525 !important;
+    font-size: 1.2rem !important;
+    border: 1px solid #252525;
+    padding: .5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.column {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pr-b2 {
+    position: relative;
+    bottom: 2rem;
+}
